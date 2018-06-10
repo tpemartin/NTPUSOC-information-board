@@ -1,0 +1,32 @@
+.container{
+  width:260px;
+  margin:20px auto;
+  height:300px;
+  background-color:#333333;
+  overflow:hidden;
+}
+/* #MyDivName{
+  overflow:auto;
+} */
+ul{
+  list-style:none;
+  position:relative;
+}
+li{
+  height:100px;
+  background-color:#333333;
+   text-align:center;
+  border-bottom:1px solid #900000;
+}
+h2{
+  color:#9db;
+  padding-top:10px;
+}
+p{
+  text-align:left;
+  padding:10px;
+  color:#eee;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+ }
